@@ -19,7 +19,7 @@ https://leaders.com/
   --p-color:                      #717275;
   --highlight-icon-color:         #ff0100;
 
-  --body-font-family:             'DM Sans', sans-serif;
+  --body-font-family:             'Raleway', sans-serif;
 
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
@@ -391,19 +391,27 @@ strong {
 }
 
 
+/*--------------------------------------
+TEXT COLORS
+--------------------------------------*/
+.text-site {
+  color: var(--secondary-color);
+}
+
 /*---------------------------------------
   HIGHLIGHT              
 -----------------------------------------*/
 .highlight {
   background: var(--navbar-bg-color);
-  padding-bottom: 16px;
+  padding: 40px 0;
 }
 
 .highlight-thumb {
   position: relative;
   overflow: hidden;
-  margin-top: 24px;
+  margin-top: 30px;
   margin-bottom: 24px;
+  border-radius: 0.3rem;
 }
 
 .highlight-thumb::after {
@@ -701,6 +709,7 @@ strong {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  padding: 80px 0;
 }
 
 .call-to-action::after {
